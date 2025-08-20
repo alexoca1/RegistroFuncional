@@ -26,4 +26,4 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 1. **Clonar el repositorio** (si está en un repositorio remoto):
 
    ```bash
-   git clone <URL-del-repositorio>
+   git clone https://github.com/alexoca1/RegistroFuncional
