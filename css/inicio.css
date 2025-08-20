@@ -1,0 +1,98 @@
+/* Estilos globales */
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cuerpo de la página */
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+}
+
+/* Contenedor principal */
+.container {
+    display: flex; 
+    flex-direction: column;
+    flex: 1; 
+    width: 100%; 
+    overflow-x: hidden;
+}
+
+/* Estilo del encabezado */
+.header {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background-color: #3498db; 
+    margin-bottom: 10px;
+    height: 85px;
+    width: 100%; 
+}
+
+/* Título del encabezado */
+.header h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF; 
+}
+
+/* Contenido principal */
+.main-content {
+    flex: 1; /* Expande para ocupar espacio entre encabezado y pie de página */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+/* Estilo para las secciones de contenido */
+.welcome-section, .features, .cta {
+    margin-bottom: 20px; 
+    width: 100%; 
+}
+
+/* Títulos de las secciones */
+.welcome-section h2, .features h2, .cta h2 {
+    color: #2980b9; 
+    text-align: center;
+}
+
+/* Estilo del botón */
+.cta-button {
+    background: #F9E79F; 
+    padding: 10px;
+    border-radius: 3px; 
+    color: #2C3E50; 
+    text-shadow: 1px 1px rgba(41, 128, 185, 0.5);
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    width: auto;
+    margin: 0 auto; /* Centra el botón */
+}
+
+/* Efecto hover del botón */
+.cta-button:hover {
+    background-color: #FAD7A0; 
+}
+
+/* Estilo del pie de página */
+.footer {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background-color: #3498db; 
+    height: 70px;
+    width: 100%; /* Ancho completo */
+}
+
+/* Texto del pie de página */
+.footer h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #F8F9FA; 
+}

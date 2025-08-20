@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Academia</title>
+    <link rel="stylesheet" href="css/index.css"> 
+</head>
+<body>
+    <!-- Contenedor principal que envuelve todo el contenido de la página -->
+    <div class="container">
+    <header class="header">
+        <h1>Academia de Programación</h1>
+    </header>
+    <!-- Contenedor principal que contiene el formulario y la imagen -->
+    <div class="main-container">
+        <!-- Sección izquierda que contiene el formulario de registro -->
+        <div class="left-container">
+            <h2>Registro</h2>
+            <!-- Formulario de registro que envía datos a un script PHP -->
+            <form method="post" class="register" id="register" name="register" action="PHP/registro.php">
+                <div class="names">
+                    <input type="text" name="name" placeholder="Ingrese su primer nombre" required>
+                    <input type="text" name="surname" placeholder="Ingrese su segundo Nombre" required>
+                </div>
+                <input type="email" name="email" placeholder="Ingrese su email" required>
+                <input type="password" name="pass" placeholder="Ingrese su contraseña" required>
+                <button class="button" type="submit" >Registrarse</button>
+            </form>
+        </div>
+        <!-- Sección derecha que muestra una imagen de fondo y texto -->
+        <div class="right-container">
+            <h2>Regístrate con los mejores profesionales en educación</h2>
+        </div>
+
+        </div>
+        <!-- Pie de página con información adicional -->
+        <footer class="footer">
+            <h2>Academia de Programación</h2>
+        </footer>
+    </div>
+</body>
+</html>

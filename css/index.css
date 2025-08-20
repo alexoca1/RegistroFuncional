@@ -1,0 +1,166 @@
+/* Estilos globales que se aplican a todos los elementos */
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+}
+
+/* Contenedor principal que abarca desde el encabezado hasta el pie de página */
+.container {
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+}
+
+/* Estilos para el encabezado principal */
+.header {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background-color: #3498db; 
+    margin-bottom: 10px;
+    height: 85px;
+}
+
+/* Estilo del título principal de la página */
+.header h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF
+}
+
+/* Contenedor central para el formulario y la imagen */
+.main-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    align-self: center;
+    border-radius: 5px;
+}
+
+/* Contenedor del formulario de registro */
+.left-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: space-around;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #1abc9c; 
+}
+
+/* Estilos para el título dentro del contenedor del formulario */
+.left-container h2 {
+     font-weight: bold;    
+    color: #2980b9; 
+    text-shadow: 1px 1px rgba(41, 128, 185, 0.5);
+    text-align: center;
+}
+
+/* Estilos del formulario de registro */
+.left-container .register {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-items: normal;
+    height: 70%;
+}
+
+/* Estilos para los campos de entrada de nombres dentro del formulario */
+.left-container .register .names {
+    align-self: center;
+}
+
+/* Estilos para los inputs dentro del contenedor de nombres */
+.left-container .register .names input {
+    width: 14.2rem;
+    margin: 0px 10px 0px 10px;
+}
+
+/* Estilos generales para los inputs dentro del formulario */
+.left-container .register input {
+    margin: 0px 10px 0 10px;
+    padding: 10px;
+    background-color: #F8F9FA; 
+    color: #3498db; 
+}
+
+/* Estilos para el botón de registro */
+.button {
+    background: #F9E79F; 
+    padding: 10px;
+    border-radius: 3px;
+    color: #2C3E50; 
+    text-shadow: 1px 1px rgba(41, 128, 185, 0.5); 
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Estilo para el hover del botón */
+.button:hover {
+    background-color: #FAD7A0; 
+}
+
+/* Estilos para el contenedor derecho que contiene la imagen */
+.right-container {
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-image: url('img/academy.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Estilos para el título dentro del contenedor derecho */
+.right-container h2 {
+    font-weight: bold;
+    width: fit-content;
+    color: #fff;
+    text-shadow: 1px 1px rgba(41, 128, 185, 0.5);
+    text-align: center;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background-color: #3498db; 
+    height: 70px;
+}
+
+/* Estilos para el título dentro del pie de página */
+.footer h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #F8F9FA; 
+}
+
+/* Estilo para mensajes de error en el formulario */
+.error-message {
+    background-color: #F8D7DA; 
+    color: #721C24; 
+    padding: 15px; 
+    border-radius: 5px; 
+    margin: 10px 0; 
+    text-align: center; 
+    border: 1px solid #F5C6CB; 
+    width: fit-content; 
+    margin-left: auto; 
+    margin-right: auto;
+}
